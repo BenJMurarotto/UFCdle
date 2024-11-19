@@ -4,9 +4,15 @@
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family: 'Sternbach-Hollow';
+    src: url('../fonts/SternbachHollow.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
 
 .th-head {
-    font-family: 'Sternbach', sans-serif;
+    font-family: 'Sternbach-Hollow', sans-serif;
     align-items: center;
 }
 

@@ -169,7 +169,7 @@ function appendSelectedFighter(fighter) {
         let secretRank = secretFighter.rank
         if (fighterRank > secretRank) {
             rankCell.textContent = fighter.rank + ' ▼';
-        } else if (fighterRank > secretRank) {
+        } else if (fighterRank < secretRank) {
             rankCell.textContent = fighter.rank + ' ▲';
         } else {
             rankCell.textContent = fighter.rank;
@@ -178,6 +178,7 @@ function appendSelectedFighter(fighter) {
         if (fighterRank == 0) {
             fighterRank = 'C'
         }
+    
         row.appendChild(rankCell);
 
         // 4. Style
