@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UFCdle</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="lightbg">
+    <!-- Spinner Container -->
+    <div id="loadingSpinner" class="spinner-container">
+        <div class="spinner"></div>
+    </div>
+
+    <div id="intro-screen" class="grid-container">
+        <div id="title-container">
+            <h1 class="large-heading">
+                <span style="font-style: italic;">UFC</span>
+                <span>dle</span>
+            </h1>
+        </div>
+        <button class="cool-button" id="play-button">Play</button>
+        <span id="intro-screen-date"></span>
+        <span id="introduction">by Ben Murarotto</span>
+    </div>
+
+    <!-- Secret feature debugging note -->
+    <!-- <div id="secret-div"></div> -->
+
+    <div id="game-screen">
+        <div class="grid-container">
+            <div class="grid-item">
+                <h1 class="large-heading">
+                    <span style="font-style: italic;">UFC</span>
+                    <span>dle</span>
+                </h1>
+                <input type="text" id="search-input" placeholder="Enter fighter name" autocomplete="off">
+
+                <!-- Container for search results -->
+                <div id="dropdown" class="dropdown"></div>
+            </div>
+
+            <!-- Winner Modal -->
+            <div class="modal-overlay"></div>
+            <dialog id="winner-modal" style="display: none;">
+                <button class="x-close-button" type="button" aria-label="Close">
+                    <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 0 24 24" width="20" class="game-icon" data-testid="icon-close">
+                        <path fill="var(--color-tone-1)" d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path>
+                    </svg>
+                </button>
+                <p id="winner-message"></p>
+            </dialog>
+            
+
+            <!-- Table to display selected fighters -->
+            <div class="grid-item">
+                <table id="fighters-table" border="1" style="display: none;">
+                    <thead>
+                        <tr>
+                            <th class="th-head">Name</th>
+                            <th class="th-head">Division</th>
+                            <th class="th-head">Rank</th>
+                            <th class="th-head">Style</th>
+                            <th class="th-head">Country</th>
+                            <th class="th-head">Debut</th>
+                        </tr>
+                    </thead>
+                    <tbody id="fighters-body">
+                        <!-- Body for table rows -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script src="bundle.js"></script>
+</body>
+</html>

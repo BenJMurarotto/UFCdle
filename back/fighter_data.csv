@@ -1,0 +1,177 @@
+id,fname,lname,nickname,division,rank,style,country,debut
+1,Islam,Makhachev,,Lightweight,0,Sambo,Russia,2015-05-23
+2,Alexandre,Pantoja,The Cannibal,Flyweight,0,MMA,Brazil,2017-01-29
+3,Merab,Dvalishvili,The Machine,Bantamweight,0,Freestyle,Georgia,2017-12-09
+4,Ilia,Topuria,El  Matador,Featherweight,0,Brazilian Jiu-Jitsu,Germany,2020-10-10
+5,Belal,Muhammad,Remember The Name,Welterweight,0,MMA,United States,2016-07-07
+6,Dricus,Du Plessis,Stillknocks,Middleweight,0,MMA,South Africa,2020-10-10
+7,Alex,Pereira,Poatan,Light Heavyweight,0,Kickboxer,Brazil,2021-11-06
+8,Jon,Jones,Bones,Heavyweight,0,MMA,United States,2008-08-09
+9,Valentina,Shevchenko,Bullet,Women's Flyweight,0,Muay Thai,Kyrgyzstan,2015-12-19
+10,Zhang,Weili,Magnum,Women's Strawweight,0,Muay Thai,China,2018-08-04
+11,Julianna,Peña,The Venezuelan Vixen,Women's Bantamweight,0,MMA,United States,2013-12-01
+12,Brandon,Royval,Raw Dawg,Flyweight,1,Brawler,United States,2020-05-30
+13,Brandon,Moreno,The Assassin Baby,Flyweight,2,Jiu-Jitsu,Mexico,2016-10-02
+14,Amir,Albazi,The Prince,Flyweight,3,Jiu-Jitsu,Iraq,2020-07-18
+15,Kai,Kara-France,Don't Blink,Flyweight,4,Kickboxer,New Zealand,2018-12-02
+16,Tatsuro,Taira,,Flyweight,5,MMA,Japan,2022-04-30
+17,Alex,Perez,,Flyweight,6,Freestyle,United States,2017-08-08
+18,Asu,Almabayev,Zulfikar,Flyweight,7,MMA,Kazakhstan,2023-08-05
+19,Steve,Erceg,Astroboy,Flyweight,8,MMA,Australia,2023-05-20
+20,Manel,Kape,StarBoy,Flyweight,9,MMA,Angola,2021-02-06
+21,Tim,Elliott,,Flyweight,10,Freestyle,United States,2012-05-05
+22,Tagir,Ulanbekov,,Flyweight,11,Grappler,Russia,2020-10-10
+23,Bruno,Silva,Bulldog,Flyweight,12,Grappler,Brazil,2019-09-07
+24,Charles,Johnson,Inner G,Flyweight,13,MMA,United States,2022-07-23
+25,Cody,Durden,Custom Made,Flyweight,14,Striker,United States,2020-08-01
+26,Matt,Schnell,Danger,Flyweight,15,Brazilian Jiu-Jitsu,United States,2016-12-04
+27,Sean,O'Malley,Suga,Bantamweight,1,MMA,United States,2017-07-18
+28,Umar,Nurmagomedov,,Bantamweight,2,MMA,Russia,2021-01-20
+29,Petr,Yan,No Mercy,Bantamweight,3,Boxer,Russia,2018-06-23
+30,Cory,Sandhagen,,Bantamweight,4,MMA,United States,2018-01-28
+31,Deiveson,Figueiredo,Deus da Guerra,Bantamweight,5,Boxing,Brazil,2017-06-03
+32,Marlon,Vera,Chito,Bantamweight,6,Grappler,Ecuador,2014-11-15
+33,Henry,Cejudo,Triple C,Bantamweight,7,Wrestling,United States,2014-12-13
+34,Song,Yadong,Kung Fu Kid,Bantamweight,8,Boxer,China,2017-11-25
+35,Rob,Font,,Bantamweight,9,Striker,United States,2014-07-05
+36,Mario,Bautista,,Bantamweight,10,Freestyle,United States,2019-01-19
+37,José,Aldo,,Bantamweight,11,Jiu-Jitsu,Brazil,2011-04-30
+38,Kyler,Phillips,The Matrix,Bantamweight,12,MMA,United States,2017-08-01
+39,Jonathan,Martinez,Dragon,Bantamweight,13,Freestyle,United States,2018-10-27
+40,Aiemann,Zahabi,,Bantamweight,14,MMA,Canada,2017-02-20
+41,Montel,Jackson,Quik,Bantamweight,15,MMA,United States,2018-08-04
+42,Alexander,Volkanovski,The Great,Featherweight,1,MMA,Australia,2016-10-15
+43,Max,Holloway,Blessed,Featherweight,2,Muay Thai,United States,2012-02-04
+44,Diego,Lopes,,Featherweight,3,Jiu-Jitsu,Brazil,2023-05-06
+45,Yair,Rodriguez,El Pantera,Featherweight,4,Freestyle,Mexico,2014-11-15
+46,Movsar,Evloev,,Featherweight,5,Freestyle,Russia,2019-04-20
+47,Brian,Ortega,T-City,Featherweight,6,Jiu-Jitsu,United States,2014-07-26
+48,Arnold,Allen,Almighty,Featherweight,7,MMA,England,2015-06-20
+49,Josh,Emmett,CC0 (C-C-OH),Featherweight,8,Freestyle,United States,2016-05-08
+50,Aljamain,Sterling,Funk Master,Featherweight,9,Kickboxer,United States,2014-02-22
+51,Calvin,Kattar,,Featherweight,10,Freestyle,United States,2017-07-29
+52,Lerone,Murphy,The Miracle,Featherweight,11,Kickboxer,England,2019-09-07
+53,Giga,Chikadze,Ninja,Featherweight,12,Karate,Georgia,2019-09-28
+54,Bryce,Mitchell,Thug Nasty,Featherweight,13,MMA,United States,2018-07-06
+55,Dan,Ige,50K,Featherweight,14,Jiu-Jitsu,United States,2017-07-25
+56,Edson,Barboza,Junior,Featherweight,15,Striker,Brazil,2010-11-21
+57,Arman,Tsarukyan,Ahalkalakets,Lightweight,1,Kickboxer,Georgia,2019-04-20
+58,Charles,Oliveira,Do Bronxs,Lightweight,2,Jiu-Jitsu,Brazil,2010-08-01
+59,Justin,Gaethje,The Highlight,Lightweight,3,MMA,United States,2017-07-08
+60,Dustin,Poirier,The Diamond,Lightweight,4,Jiu-Jitsu,United States,2011-01-02
+61,Max,Holloway,Blessed,Lightweight,5,Muay Thai,United States,2012-02-04
+62,Dan,Hooker,The Hangman,Lightweight,6,MMA,New Zealand,2014-06-28
+63,Michael,Chandler,Iron,Lightweight,7,Wrestler,United States,2021-01-23
+64,Beneil,Dariush,,Lightweight,8,MMA,Iran,2014-01-15
+65,Mateusz,Gamrot,Gamer,Lightweight,9,Wrestling,Poland,2020-10-17
+66,Rafael,Fiziev,Ataman,Lightweight,10,Muay Thai,Kyrgyzstan,2019-04-20
+67,Renato,Moicano,,Lightweight,11,Jiu-Jitsu,Brazil,2014-12-20
+68,Benoît,Saint Denis,God of War,Lightweight,12,MMA,France,2021-10-30
+69,Jalin,Turner,The Tarantula,Lightweight,13,MMA,United States,2018-10-07
+70,Paddy,Pimblett,The Baddy,Lightweight,14,MMA,England,2021-09-04
+71,Rafael,Dos Anjos,,Lightweight,15,Grappler,Brazil,2008-11-15
+72,Leon,Edwards,Rocky,Welterweight,1,MMA,Jamaica,2014-11-09
+73,Kamaru,Usman,Nigerian Nightmare,Welterweight,2,Freestyle,Nigeria,2015-07-12
+74,Shavkat,Rakhmonov,Nomad,Welterweight,3,Sambo,Uzbekistan,2020-03-21
+75,Sean,Brady,,Welterweight,4,Brazilian Jiu-Jitsu,United States,2019-10-18
+76,Jack,Della Maddalena,,Welterweight,5,MMA,Australia,2022-01-22
+77,Colby,Covington,Chaos,Welterweight,6,MMA,United States,2014-08-23
+78,Ian,Machado Garry,The Future,Welterweight,7,MMA,Ireland,2021-11-06
+79,Gilbert,Burns,Durinho,Welterweight,8,Brazilian Jiu-Jitsu,Brazil,2014-07-26
+80,Joaquin,Buckley,New Mansa,Welterweight,9,Freestyle,United States,2020-08-08
+81,Stephen,Thompson,Wonderboy,Welterweight,10,Karate,United States,2012-02-04
+82,Geoff,Neal,Handz of Steel,Welterweight,11,Striker,United States,2018-02-18
+83,Michael,Morales,,Welterweight,12,Striker,Ecuador,2022-01-22
+84,Carlos,Prates,The Nightmare,Welterweight,13,Striker,Brazil,2024-02-10
+85,Vicente,Luque,The Silent Assassin,Welterweight,14,Muay Thai,United States,2015-07-12
+86,Michael,Page,Venom,Welterweight,15,MMA,United Kingdom,2024-03-09
+87,Sean,Strickland,,Middleweight,1,MMA,United States,2014-03-15
+88,Israel,Adesanya,The Last Stylebender,Middleweight,2,Freestyle,Nigeria,2018-02-11
+89,Khamzat,Chimaev,Borz,Middleweight,3,Wrestler,Unknown,2020-07-15
+90,Robert,Whittaker,The Reaper,Middleweight,4,Brazilian Jiu-Jitsu,Australia,2012-12-16
+91,Nassourdine,Imavov,The Sniper,Middleweight,5,Striker,Russia,2020-10-03
+92,Caio,Borralho,The Natural,Middleweight,6,MMA,Brazil,2022-04-16
+93,Marvin,Vettori,The Italian Dream,Middleweight,7,MMA,Italy,2016-08-21
+94,Jared,Cannonier,Tha Killa Gorilla,Middleweight,8,Striker,United States,2015-01-03
+95,Brendan,Allen,All In,Middleweight,9,MMA,United States,2019-10-18
+96,Roman,Dolidze,,Middleweight,10,MMA,Georgia,2020-07-18
+97,Paulo,Costa,The Eraser,Middleweight,11,Striker,Brazil,2017-03-12
+98,Jack,Hermansson,The Joker,Middleweight,12,MMA,Sweden,2016-09-03
+99,Anthony,Hernandez,Fluffy,Middleweight,13,Striker,United States,2019-02-02
+100,Shara,Magomedov,Bullet,Middleweight,14,MMA,Russia,2023-10-21
+101,Michel,Pereira,Demolidor,Middleweight,15,Striker,Brazil,2019-05-18
+102,Magomed,Ankalaev,,Light Heavyweight,1,MMA,Russia,2018-03-17
+103,Jiří,Procházka,,Light Heavyweight,2,Muay Thai,Czechia,2020-07-11
+104,Jamahal,Hill,Sweet Dreams,Light Heavyweight,3,MMA,United States,2020-01-25
+105,Jan,Błachowicz,,Light Heavyweight,4,MMA,Poland,2014-10-04
+106,Aleksandar,Rakić,Rocket,Light Heavyweight,5,Freestyle,Austria,2017-09-02
+107,Nikita,Krylov,The Miner,Light Heavyweight,6,Karate,Unknown,2013-09-01
+108,Khalil,Rountree Jr.,,Light Heavyweight,7,MMA,United States,2016-07-09
+109,Volkan,Oezdemir,No Time,Light Heavyweight,8,Striker,Switzerland,2017-02-05
+110,Johnny,Walker,,Light Heavyweight,9,MMA,Brazil,2018-11-17
+111,Carlos,Ulberg,Black Jag,Light Heavyweight,10,Kickboxer,New Zealand,2021-03-06
+112,Azamat,Murzakanov,Professional,Light Heavyweight,11,MMA,Russia,2021-11-20
+113,Dominick,Reyes,The Devastator,Light Heavyweight,12,MMA,United States,2017-06-26
+114,Anthony,Smith,Lionheart,Light Heavyweight,13,Freestyle,United States,2012-08-19
+115,Bogdan,Guskov,Czarevitch,Light Heavyweight,14,MMA,Uzbekistan,2023-09-02
+116,Alonzo,Menifield,Atomic,Light Heavyweight,15,Freestyle,United States,2019-01-19
+117,Tom,Aspinall,,Heavyweight,1,Freestyle,England,2020-03-21
+118,Ciryl,Gane,Bon Gamin,Heavyweight,2,Muay Thai,France,2019-08-10
+119,Alexander,Volkov,Drago,Heavyweight,3,Brazilian Jiu-Jitsu,Russia,2016-11-19
+120,Sergei,Pavlovich,,Heavyweight,4,MMA,Russia,2018-11-24
+121,Curtis,Blaydes,Razor,Heavyweight,5,MMA,United States,2016-04-10
+122,Jailton,Almeida,Malhadinho,Heavyweight,6,Boxing,Brazil,2021-11-13
+123,Serghei,Spivac,Polar Bear,Heavyweight,7,Sambo,Moldova,2019-05-04
+124,Stipe,Miocic,,Heavyweight,8,MMA,United States,2011-10-09
+125,Marcin,Tybura,Tybur,Heavyweight,9,MMA,Poland,2016-04-10
+126,Jairzinho,Rozenstruik,Bigi Boy,Heavyweight,10,MMA,Suriname,2019-02-02
+127,Derrick,Lewis,The Black Beast,Heavyweight,11,Brawler,United States,2014-04-19
+128,Tai,Tuivasa,Bam Bam,Heavyweight,12,MMA,Australia,2017-11-18
+129,Marcos,Rogerio de Lima,Pezao,Heavyweight,13,Striker,Brazil,2014-05-31
+130,Waldo,Cortes Acosta,Salsa Boy,Heavyweight,14,Striker,Dominican Republic,2022-10-29
+131,Mick,Parkin,,Heavyweight,15,MMA,England,2023-07-22
+132,Tatiana,Suarez,,Women's Strawweight,1,MMA,United States,2016-07-09
+133,Yan,Xiaonan,,Women's Strawweight,2,Striker,China,2017-11-25
+134,Virna,Jandiroba,Carcara,Women's Strawweight,3,Jiu-Jitsu,Brazil,2019-04-27
+135,Jéssica,Andrade,Bate Estaca,Women's Strawweight,4,Muay Thai,Brazil,2013-07-27
+136,Amanda,Lemos,,Women's Strawweight,5,Boxing,Brazil,2017-07-16
+137,Mackenzie,Dern,,Women's Strawweight,6,Brazilian Jiu-Jitsu,United States,2018-03-03
+138,Iasmin,Lucindo,,Women's Strawweight,7,Striker,Brazil,2022-08-13
+139,Amanda,Ribas,,Women's Strawweight,8,Judo,Brazil,2019-06-29
+140,Marina,Rodriguez,,Women's Strawweight,9,Muay Thai,Brazil,2018-09-23
+141,Tabatha,Ricci,Baby Shark,Women's Strawweight,10,Judo,Brazil,2021-06-05
+142,Loopy,Godinez,,Women's Strawweight,11,MMA,Mexico,2021-04-17
+143,Gillian,Robertson,The Savage,Women's Strawweight,12,MMA,Canada,2017-12-01
+144,Angela,Hill,Overkill,Women's Strawweight,13,Muay Thai,United States,2014-12-12
+145,Luana,Pinheiro,,Women's Strawweight,14,Judo,Brazil,2021-03-27
+146,Tecia,Pennington,Tiny Tornado,Women's Strawweight,15,Kickboxer,United States,2014-12-12
+147,Alexa,Grasso,,Women's Flyweight,1,MMA,Mexico,2016-11-06
+148,Manon,Fiorot,The Beast,Women's Flyweight,2,Karate,France,2021-01-20
+149,Erin,Blanchfield,Cold Blooded,Women's Flyweight,3,Jiu-Jitsu,United States,2021-09-18
+150,Maycee,Barber,The Future,Women's Flyweight,4,Freestyle,United States,2018-11-10
+151,Natalia,Silva,,Women's Flyweight,5,Taekwondo,Brazil,2022-06-18
+152,Rose,Namajunas,Thug,Women's Flyweight,6,MMA,United States,2014-12-12
+153,Katlyn,Cerminara,Blonde Fighter,Women's Flyweight,7,MMA,United States,2016-07-14
+154,Jéssica,Andrade,Bate Estaca,Women's Flyweight,8,Muay Thai,Brazil,2013-07-27
+155,Viviane,Araújo,Vivi,Women's Flyweight,9,MMA,Brazil,2019-05-11
+156,Amanda,Ribas,,Women's Flyweight,10,Judo,Brazil,2019-06-29
+157,Karine,Silva,Killer,Women's Flyweight,11,Brazilian Jiu-Jitsu,Brazil,2022-06-04
+158,Tracy,Cortez,,Women's Flyweight,12,MMA,United States,2019-11-16
+159,Jasmine,Jasudavicius,,Women's Flyweight,13,Brawler,Canada,2022-01-22
+160,Ariane,da Silva,The Queen,Women's Flyweight,14,Striker,Brazil,2019-01-19
+161,Casey,O'Neill,King,Women's Flyweight,15,MMA,Scotland,2021-02-20
+162,Raquel,Pennington,Rocky,Women's Bantamweight,1,Freestyle,United States,2013-12-01
+163,Kayla,Harrison,,Women's Bantamweight,2,Judo,United States,2024-04-13
+164,Ketlen,Vieira,Fenomeno,Women's Bantamweight,3,Judo,Brazil,2016-10-02
+165,Norma,Dumont,The Immortal,Women's Bantamweight,4,MMA,Brazil,2020-02-29
+166,Macy,Chiasson,,Women's Bantamweight,5,MMA,United States,2018-11-30
+167,Irene,Aldana,,Women's Bantamweight,6,Striker,Mexico,2016-12-18
+168,Mayra,Bueno Silva,Sheetara,Women's Bantamweight,7,Striker,Brazil,2018-09-23
+169,Holly,Holm,The Preacher's Daughter,Women's Bantamweight,8,Kickboxer,United States,2015-02-28
+170,Karol,Rosa,,Women's Bantamweight,9,Muay Thai,Brazil,2019-08-31
+171,Yana,Santos,,Women's Bantamweight,10,MMA,Russia,2018-03-03
+172,Miesha,Tate,Cupcake,Women's Bantamweight,11,Grappler,United States,2012-08-19
+173,Julia,Avila,Raging Panda,Women's Bantamweight,12,MMA,United States,2019-07-06
+174,Ailin,Perez,Fiona,Women's Bantamweight,13,Kung Fu,Argentina,2022-09-03
+175,Jacqueline,Cavalcanti,,Women's Bantamweight,14,Striker,Brazil,2023-09-02
+176,Chelsea,Chandler,,Women's Bantamweight,15,MMA,United States,2022-10-01
