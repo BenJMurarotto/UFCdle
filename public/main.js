@@ -154,9 +154,9 @@ function appendSelectedFighter(fighter) {
             divisionCell.style.color = 'orange';
         }
         if (fighterDivisions.indexOf(fighter.division) < fighterDivisions.indexOf(secretFighter.division)) {
-            divisionCell.textContent = fighter.division + ' ▲';
+            divisionCell.innerHTML = fighter.division + upArrowImage();
         } else if (fighterDivisions.indexOf(fighter.division) > fighterDivisions.indexOf(secretFighter.division)) {
-            divisionCell.textContent = fighter.division + ' ▼';
+            divisionCell.innerHTML = fighter.division + downArrowImage();
         } else {
             divisionCell.textContent = fighter.division;
             divisionCell.style.color = 'green';
@@ -168,9 +168,9 @@ function appendSelectedFighter(fighter) {
         let fighterRank = fighter.rank
         let secretRank = secretFighter.rank
         if (fighterRank > secretRank) {
-            rankCell.textContent = fighter.rank + ' ▼';
+            rankCell.innerHTML = fighter.rank + upArrowImage();
         } else if (fighterRank < secretRank) {
-            rankCell.textContent = fighter.rank + ' ▲';
+            rankCell.innerHTML = fighter.rank + upArrowImage();
         } else {
             rankCell.textContent = fighter.rank;
             rankCell.style.color = 'green';
@@ -206,8 +206,8 @@ function appendSelectedFighter(fighter) {
         const debutCell = document.createElement('td');
         if (!isNaN(fighterDebutDate) && !isNaN(secretFighterDebutDate)) {
             const formattedDebutDate = format(fighterDebutDate, 'MMM yyyy');
-            const debutAddon = fighterDebutDate < secretFighterDebutDate ? ' ▲' : ' ▼';
-            debutCell.textContent = formattedDebutDate + debutAddon;
+            const debutAddon = fighterDebutDate < secretFighterDebutDate ? upArrowImage() : downArrowImage();
+            debutCell.innerHTML = formattedDebutDate + debutAddon;
             if (fighterDebutDate.getTime() === secretFighterDebutDate.getTime()) {
                 debutCell.style.color = 'green';
             }
@@ -305,3 +305,13 @@ document.getElementById('close-alert')?.addEventListener('click', () => {
     const winnerModal = document.getElementById('winner-modal');
     if (winnerModal) winnerModal.style.display = 'none';
 });
+
+function upArrowImage(){
+    return '<div class="image-container"><img src="imgs/uparrowguess.png" class = "arrow";></div>'
+
+}
+function downArrowImage(){
+    return '<div class="image-container"><img src="imgs/uparrowguess.png" class = "flipped-arrow";></div>'
+
+}
+
