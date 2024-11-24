@@ -10,6 +10,12 @@
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family: 'Teko';
+    src: url('../fonts/Teko-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
 
 .th-head {
     font-family: 'Sternbach', sans-serif;
@@ -92,7 +98,7 @@
 }
 .image-container {
     display: inline-block; /* Ensures the background only applies to the image area */
-    padding: 0; /* Optional: Adjust spacing around the image */
+    padding: 10px; /* Optional: Adjust spacing around the image */
   }
   
 #game-screen {
@@ -187,6 +193,7 @@ th {
 td {
     background-color: #bababa;
     border: 2px solid #000;
+    font-family: 'Teko', sans-serif;
 }
 
 /* Spinner Container */
