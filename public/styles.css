@@ -18,11 +18,11 @@
 }
 
 .th-head {
-    font-family: 'Sternbach', sans-serif;
+    font-family: 'Teko', sans-serif;
     align-items: center;
     font-size: 26px;
-    color: #ec2d2d;
-    -webkit-text-stroke: 0.5px rgb(252, 252, 252); 
+    color: #000000;
+    -webkit-text-stroke: 0.5px rgb(0, 0, 0); 
 }
 
 
@@ -188,6 +188,7 @@ th, td {
 th {
     background-color: #ababab;
     border: 4px solid #000;
+    width: 100px;
 }
 
 td {

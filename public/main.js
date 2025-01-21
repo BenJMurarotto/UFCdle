@@ -191,6 +191,7 @@ function appendSelectedFighter(fighter) {
 
         // 5. Country
         const countryCell = document.createElement('td');
+        const countCont = document.createElement('div');
         countryCell.textContent = fighter.country;
         if (continentToCountries[fighter.country] === continentToCountries[secretFighter.country]) {
             countryCell.style.color = 'orange';
@@ -203,23 +204,33 @@ function appendSelectedFighter(fighter) {
         // 6. Debut
         const fighterDebutDate = new Date(fighter.debut);
         const secretFighterDebutDate = new Date(secretFighter.debut);
+        
+        // Create table cell and container
         const debutCell = document.createElement('td');
+        const debCont = document.createElement('div');
+        debCont.classList.add('tablecont'); // Use debCont instead of undefined "container"
+        
         if (!isNaN(fighterDebutDate) && !isNaN(secretFighterDebutDate)) {
             const formattedDebutDate = format(fighterDebutDate, 'MMM yyyy');
             const debutAddon = fighterDebutDate < secretFighterDebutDate ? upArrowImage() : downArrowImage();
-            debutCell.innerHTML = formattedDebutDate + debutAddon;
+        
+            // Add formatted date and arrow to the container
+            debCont.innerHTML = formattedDebutDate + debutAddon;
+        
+            // Highlight if the dates match
             if (fighterDebutDate.getTime() === secretFighterDebutDate.getTime()) {
-                debutCell.style.color = 'green';
+                debCont.style.color = 'green'; // Apply color to the container
             }
         } else {
-            debutCell.textContent = 'Unknown';
+            // Handle invalid dates
+            debCont.textContent = 'Unknown';
             console.error('Invalid debut dates:', fighter.debut, secretFighter.debut);
         }
+        
+        // Append the container to the cell, then the cell to the row
+        debutCell.appendChild(debCont);
         row.appendChild(debutCell);
-
-    
         fightersTableBody.appendChild(row);
-
         // Add the fighter to the selectedFighters list
         selectedFighters.push(fighter.id);
     } else {
