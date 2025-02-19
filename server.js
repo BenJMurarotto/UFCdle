@@ -47,7 +47,7 @@ app.get('/api/countries', (req, res) => {
 // this is the api route for ajax search 
 //---- update this to accommodate the few fighters which appear in the rankings more than once ----
 app.get('/api/data', (req, res) => {
-  const searchQuery = req.query.name ? `%${req.query.name}%` : '%';
+  const searchQuery = req.query.name ? `${req.query.name}%` : '%';
   const sql = `
     SELECT * FROM fighters
     WHERE LOWER(fname) LIKE LOWER(?) OR LOWER(lname) LIKE LOWER(?)

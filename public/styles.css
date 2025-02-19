@@ -179,10 +179,12 @@ table {
 }
 
 th, td {
-    padding: 10px;
+    width: 200px; /* Adjust based on your needs */
+    max-width: 200px; /* Prevent cells from expanding */
     text-align: center;
     vertical-align: middle;
-    border: 1px solid #000;
+    overflow: hidden;
+    white-space: nowrap;
 }
 
 th {
@@ -196,6 +198,25 @@ td {
     border: 2px solid #000;
     font-family: 'Teko', sans-serif;
 }
+
+.table-cell {
+    display: flex;
+    align-items: center;  /* Vertically align text and arrow */
+    justify-content: center;  /* Horizontally center content */
+    gap: 5px; /* Adds spacing between number and arrow */
+}
+
+/* Arrows */
+.arrow, .flipped-arrow {
+    width: 18px;  /* Adjust as needed */
+    height: auto;
+    background-color: #bababa;
+}
+.flipped-arrow {
+    transform: scaleY(-1);
+}
+
+
 
 /* Spinner Container */
 .spinner-container {
@@ -221,16 +242,8 @@ td {
     animation: spin 1s linear infinite;
 }
 
-.arrow, .flipped-arrow {
-    width: 20px;
-    height: 25px;
-    background-color: #bababa;
-}
 
 
-.flipped-arrow {
-    transform: scaleY(-1);
-}
 /* SpinKeyframes */
 @keyframes spin {
     0% { transform: rotate(0deg); }
